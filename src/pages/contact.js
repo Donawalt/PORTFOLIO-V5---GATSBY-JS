@@ -3,7 +3,6 @@ import Link from 'gatsby-link'
 
 import Layout from '../components/layout'
 
-import '../style/medias.scss'
 import '../style/contact.scss'
 
 export default () => (

@@ -9,7 +9,7 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 
-import '../style/blog-post.scss'
+import '../style/post.scss'
 
 class BlogPostTemplate extends React.Component {
   render() {
