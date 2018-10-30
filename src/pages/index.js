@@ -28,7 +28,15 @@ class BlogIndex extends React.Component {
         <div className="contenue" id="contenue">
         <Helmet title={siteTitle}/>
         <section>
-            
+        <div>
+            <h1>Donaël Walter</h1>
+            <h2> 
+                  <span className="élements">Développeur Créatif</span>
+                  <span className="élements">WebDesigner</span>
+                  <span className="élements">Graphiste</span>
+                  <span className="élements">Créateur de Contenue</span>
+            </h2>
+        </div>
         </section>
         <main className="flow-posts" id="Acceuil">
         {posts.map(({ node }) => {

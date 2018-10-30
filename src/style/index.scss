@@ -1,0 +1,119 @@
+//ACCEUIL
+#Acceuil {
+    background-color: white;
+    margin: 0;
+    z-index: 1;
+}
+//ACCEUIL HOMEPAGE 
+#contenue>section{
+    background-image: url(https://lh5.googleusercontent.com/QOdY4YvI8CCV8NUxLHvMMRIHiPRrf7cKqf_5KRK38OZEuX9zf_kDVtgdhxPmU-3irWRt_0J81qSRJnAoY9s1=w1920-h958);
+    background-position: top;
+    background-size: cover;
+    margin-top: 0;
+    margin-left: 0;
+    top:0;
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+#contenue{
+    position: absolute;
+    top:0;
+    margin: 0;
+    width: 100%;
+}
+ #contenue h1{
+    margin: 0;
+    font-family: Gotham;
+    font-size: 15vh;
+     text-transform: uppercase;
+     z-index: 0;
+}
+ #contenue h1:before{
+    background-color: red;
+    height: 25vh;
+}
+
+#contenue section div{
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    mix-blend-mode: difference;
+}
+#contenue section h2 span {
+-webkit-animation: ltr 10s linear infinite 0s;
+animation: ltr 10s linear infinite 0s;
+opacity: 0;
+position: absolute;
+width: 100%;
+left:0;
+}
+#contenue section h2 span:nth-child(2){
+    -webkit-animation-delay: 2.5s;
+animation-delay: 2.5s;
+}
+#contenue section h2 span:nth-child(3){
+    -webkit-animation-delay: 5s;
+animation-delay: 5s;
+}
+#contenue section h2 span:nth-child(4){
+    -webkit-animation-delay: 7.5s;
+animation-delay: 7.5s;
+}
+
+//ANIMATIONS
+@-webkit-keyframes stripes {
+  100% {
+    background-position: 0 -100px;
+  }
+}
+
+@keyframes stripes {
+  100% {
+    background-position: 0 -100px;
+  }
+}
+@keyframes ltr {
+    0% {
+    opacity: 0;
+}
+6% {
+    opacity: 0;
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+}
+10% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+}
+25% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+}
+29% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+}
+80% {
+    opacity: 0;
+}
+100% {
+    opacity: 0;
+}
+}
