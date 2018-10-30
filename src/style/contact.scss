@@ -1,0 +1,41 @@
+.contact-f{
+  width: 75vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15vh;
+  align-items: center;
+  height: 60vh;
+}
+
+ .contact-f form{
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+
+ .contact-f input,textarea{
+  margin-top: 1vh;
+  width: 100%;
+}
+
+ .contact-f h1{
+  margin: 0;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+ .contact-f blockquote ul{
+  list-style-type: none;
+  margin: 0;
+}
+ .contact-f blockquote{
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight:lighter;
+  padding-left: 4px;
+  border-left: 4px solid white;
+}
