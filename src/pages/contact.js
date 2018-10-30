@@ -37,24 +37,6 @@ export default () => (
       </div>
     </div>
     </div>
-    <style
-    dangerouslySetInnerHTML={{__html: `
-      #contact-page{
-        background: crimson;
-        color:white;
-        height: 100vh;
-        position:absolute;
-        top: 0;
-        width: 99vw;
-      }
-    footer {
-      display: none;
-    }
-.progress-container{
-  background-color: darkblue;
-  border:none;
-}
-        `}} />
   </Layout>
   </div>
 )

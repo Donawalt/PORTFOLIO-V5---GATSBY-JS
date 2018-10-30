@@ -17,17 +17,5 @@ export default () => (
    <p></p>
     </section>
     </Layout>
-    <style
-    dangerouslySetInnerHTML={{__html: `
-      html{
-        overflow:hidden;
-      }
-      body{
-        background-color: darkblue;
-      }
-      section{
-        height: 100vh;
-      }
-      `}} />
   </div>
 )

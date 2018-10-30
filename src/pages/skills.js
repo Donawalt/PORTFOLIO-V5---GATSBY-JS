@@ -36,33 +36,5 @@ export default () => (
     </section>
   </div>
   </Layout>
-  <style
-  dangerouslySetInnerHTML={{__html: `
-    #c{
-      margin-top: 25vh;
-    }
-    html{
-      overflow:hidden;
-    }
-    footer{
-      display:hidden !important;
-    opacity: 0;
-    }
-    section{
-      width:60vw;
-      margin-left:20vw;
-      z-index: 8;
-    }
-    section:hover>.hidden-desc{
-      display:block;
-    }
-    .hidden-desc{
-      display:none;
-    }
-    `}} />
-    <style
-    dangerouslySetInnerHTML={{__html: `
-      background-color: crimson!;
-      `}} />
     </div>
 )
