@@ -11,7 +11,11 @@
   padding: 2vh;
 }
 
-#header div:nth-child(1){
+#header a{
+  color: transparent;
+}
+
+#header a:nth-child(1){
   height: 100px;
   width: 100px;
   z-index: 999999999;
@@ -26,7 +30,7 @@
   margin-top: 10px;
 }
 @for $i from 3 through 9 {
-  #header div:nth-child(1) .char#{$i} {
+  #header a:nth-child(1) .char#{$i} {
     font: 26px MonoSpace;
     height: 55px;
     position: absolute;
@@ -55,10 +59,10 @@
     transform: rotate(360deg);
   }
 }
-#header div:nth-child(2){
+#header a:nth-child(2){
   display: flex;
 }
-#header div:nth-child(2)>p{
+#header a:nth-child(2)>p{
   transform: rotate(90deg);
   margin-right: 50px;
   color: white;

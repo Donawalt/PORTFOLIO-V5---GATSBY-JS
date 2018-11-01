@@ -1,0 +1,12 @@
+div form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+div form input, div form textarea {
+  margin: 4px;
+}
+label {
+  margin-top: 10px;
+}

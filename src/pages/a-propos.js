@@ -7,7 +7,7 @@ import CoverImg from '../assets/cover.jpg'
 export default () => (
   <div id="about">
   <Layout>
-    <section id="content-french">
+    <section id="c">
     <h1>A-PROPOS</h1>
     <p>Née en 1999. Elévée à Valence en France.</p>
     <p>J'étudie le développement web et la communication visuel à l'Université de Dijon.</p>

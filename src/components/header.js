@@ -10,7 +10,7 @@ class Header extends React.Component {
   render() {
     return (
         <header className="header" id="header">
-        <div>
+        <Link to="/">
           <span className="char3">D</span>
           <span className="char4">W</span>
           <span className="char5">A</span>
@@ -18,10 +18,10 @@ class Header extends React.Component {
           <span className="char7">T</span>
           <span className="char8">E</span>
           <span className="char9">R</span>
-        </div>
-        <div>
+        </Link>
+        <Link to="/menu">
           <p>|||</p>
-        </div>
+        </Link>
         </header>
     )
   }

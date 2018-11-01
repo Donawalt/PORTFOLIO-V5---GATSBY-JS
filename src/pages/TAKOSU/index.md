@@ -11,9 +11,8 @@ type: Graphisme & Audiovisuel
 ----------------------------------------------------------
 
 ## Intro vidéo & logo
-<video controls poster="https://adobeprod-a.akamaihd.net/9y6CBku_Dia/image/9y6CBku_Dia_poster.jpg?hdnea=st%3D1537445908%7Eexp%3D1537705108%7Eacl%3D%2Fshared_assets%2Fimage%2F*%21%2Fz%2F9y6CBku_Dia%2Frend%2F*%21%2Fi%2F9y6CBku_Dia%2Frend%2F*%21%2F9y6CBku_Dia%2Frend%2F*%21%2F9y6CBku_Dia%2Fimage%2F*%7Ehmac%3D9d7971ff016d4ec13ee1215bf4a601ce4c78937ba9c731a79d78ce363ea062bd" style="margin:auto;width:70vw;">
-    <source src="https://adobeprod-a.akamaihd.net/9y6CBku_Dia/rend/master.m3u8?hdnea=st%3D1537445908%7Eexp%3D1537705108%7Eacl%3D%2Fshared_assets%2Fimage%2F*%21%2Fz%2F9y6CBku_Dia%2Frend%2F*%21%2Fi%2F9y6CBku_Dia%2Frend%2F*%21%2F9y6CBku_Dia%2Frend%2F*%21%2F9y6CBku_Dia%2Fimage%2F*%7Ehmac%3D9d7971ff016d4ec13ee1215bf4a601ce4c78937ba9c731a79d78ce363ea062bd" type="application/x-mpegURL">
-	<source src="https://adobeprod-a.akamaihd.net/9y6CBku_Dia/rend/9y6CBku_Dia_576.mp4?hdnea=st%3D1537445908%7Eexp%3D1537705108%7Eacl%3D%2Fshared_assets%2Fimage%2F*%21%2Fz%2F9y6CBku_Dia%2Frend%2F*%21%2Fi%2F9y6CBku_Dia%2Frend%2F*%21%2F9y6CBku_Dia%2Frend%2F*%21%2F9y6CBku_Dia%2Fimage%2F*%7Ehmac%3D9d7971ff016d4ec13ee1215bf4a601ce4c78937ba9c731a79d78ce363ea062bd" type="video/mp4">
+<video controls poster="poster-video.jpg" style="margin:auto;width:70vw;">
+	<source src="introtakosu.mp4" type="video/mp4">
 </video>
 
 ## Notre team

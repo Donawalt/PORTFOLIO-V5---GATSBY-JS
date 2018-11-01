@@ -8,31 +8,26 @@ import '../style/contact.scss'
 export default () => (
   <div>
   <Layout>
-  <div id="contact-page">
+  <div id="c">
     <div className="contact-f">
       <div>
           <hr></hr>
           <h1>CONTACT</h1>
       </div>
       <div>
+        <h2>Vous êtes intéressez pour qu'ont travaille ensemble ou vous chercher juste une information.  Remplissez le formulaire ci-dessous!</h2>
+      </div>
+      <div>
       <form action="https://formspree.io/donael.walter@hotmail.com"
             method="POST">
+          <label for="name">Nom:</label>
           <input type="text" name="name" placeholder="John Doe"/>
+          <label for="email">Email:</label>
           <input type="email" name="_replyto" placeholder="example@mail.com"/>
+          <label for="content">Votre message:</label>
           <textarea name="content" placeholder="lorem ipsum dolor si amet consectur ..."></textarea>
           <input type="submit" value="Send"/>
       </form>
-      </div>
-      <div>
-      <blockquote>
-        <ul>
-          <li><a href="https://www.instagram.com/walt_dona/">Instagram</a></li>
-          <li><a href="https://www.behance.net/donawalt">Behance</a></li>
-          <li><a href="https://www.linkedin.com/in/dona%C3%ABl-walter/">Linkedin</a></li>
-          <li><a href="mailto:donael.walter@hotmail.com">donael.walter@hotmail.com</a></li>
-        </ul>
-        <p><strong>Current city:</strong> Dijon</p>
-      </blockquote>
       </div>
     </div>
     </div>
