@@ -1,12 +1,19 @@
 //ACCEUIL
 #Acceuil {
-    background-color: white;
+    background-color:black;
     margin: 0;
     z-index: 1;
+    margin: auto;
+    padding: 15vw;
+    padding-top: 0vw;
 }
-//ACCEUIL HOMEPAGE 
+body{
+  background-color: black;
+  color: white;
+}
+//ACCEUIL HOMEPAGE
 #contenue>section{
-    background-image: url(https://lh5.googleusercontent.com/QOdY4YvI8CCV8NUxLHvMMRIHiPRrf7cKqf_5KRK38OZEuX9zf_kDVtgdhxPmU-3irWRt_0J81qSRJnAoY9s1=w1920-h958);
+    background-image: url(../assets/background.png);
     background-position: top;
     background-size: cover;
     margin-top: 0;
@@ -33,29 +40,50 @@
     font-size: 15vh;
      text-transform: uppercase;
      z-index: 0;
+     mix-blend-mode:normal;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width: 100%;
+     align-items: center;
+     align-content: space-around;
 }
  #contenue h1:before{
     background-color: red;
     height: 25vh;
 }
-
+#contenue section h1 div {
+  padding: 10px;
+  width: 50%;
+}
+#contenue section h1 div:nth-child(2){
+  color: white;
+  background-color: darkblue;
+  padding: 50vh;
+  padding-left: 0;
+  padding-right: 0;
+  height: 100vh;
+}
+#contenue section h1 div:nth-child(1){
+  color: darkblue;
+}
 #contenue section div{
     margin: 0;
-    position: fixed;
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    mix-blend-mode: difference;
+    mix-blend-mode:darken;
 }
 #contenue section h2 span {
 -webkit-animation: ltr 10s linear infinite 0s;
 animation: ltr 10s linear infinite 0s;
 opacity: 0;
 position: absolute;
-width: 100%;
-left:0;
+width: 50%;
+left:50vw;
+color: white;
 }
 #contenue section h2 span:nth-child(2){
     -webkit-animation-delay: 2.5s;
@@ -86,7 +114,7 @@ animation-delay: 7.5s;
     0% {
     opacity: 0;
 }
-6% {
+  6% {
     opacity: 0;
     -webkit-transform: translateY(-30px);
     -ms-transform: translateY(-30px);
@@ -116,4 +144,51 @@ animation-delay: 7.5s;
 100% {
     opacity: 0;
 }
+}
+
+/////FICHE
+.title1{
+  margin: 0;
+  width: 90vw;
+}
+.fiche{
+  height: 100vh;
+  top:0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.featuredImage{
+  height: 50vh;
+  filter: opacity(90%);
+}
+.Linkdescription {
+  height: 50vh;
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  mix-blend-mode:lighten;
+  transition-duration: 400ms;
+}
+.title1{
+  font-family: gotham;
+  font-size: 20vh;
+  color:white;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition-duration: 800ms;
+}
+
+.Linkdescription:hover{
+  mix-blend-mode:difference;
+  transition-duration: 400ms;
+}
+.Linkdescription:hover .title1{
+  color: black;
 }

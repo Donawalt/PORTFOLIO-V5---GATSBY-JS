@@ -29,13 +29,13 @@ class BlogIndex extends React.Component {
         <Helmet title={siteTitle}/>
         <section>
         <div>
-            <h1>Donaël Walter</h1>
-            <h2> 
+            <h1><div>Donaël WALTER</div> <div><h2>
                   <span className="élements">Développeur Créatif</span>
                   <span className="élements">WebDesigner</span>
                   <span className="élements">Graphiste</span>
                   <span className="élements">Créateur de Contenue</span>
-            </h2>
+            </h2></div></h1>
+
         </div>
         </section>
         <main className="flow-posts" id="Acceuil">
