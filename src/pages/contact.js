@@ -18,8 +18,7 @@ export default () => (
         <h2>Vous êtes intéressez pour qu'ont travaille ensemble ou vous chercher juste une information.  Remplissez le formulaire ci-dessous!</h2>
       </div>
       <div>
-      <form action="https://formspree.io/donael.walter@hotmail.com"
-            method="POST">
+      <form name="contact" netlify>
           <label for="name">Nom:</label>
           <input type="text" name="name" placeholder="John Doe"/>
           <label for="email">Email:</label>
