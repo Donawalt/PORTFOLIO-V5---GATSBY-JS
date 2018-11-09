@@ -40,8 +40,27 @@ body{
   color: white;
 }
 //ACCEUIL HOMEPAGE
+#contenue>section:before{
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-image: url('https://portfoliov1.donaelwalter.com/medias/img/fond-acceuil.png');
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
 #contenue>section{
-    background-image: url(https://portfoliov1.donaelwalter.com/medias/img/fond-acceuil.png);
     background-position: top;
     background-size: cover;
     margin-top: 0;
@@ -64,7 +83,7 @@ body{
 }
  #contenue h1{
     margin: 0;
-    font-family: Gotham;
+    font-family: 'Gotham', sans-serif;
     font-size: 15vh;
      text-transform: uppercase;
      z-index: 0;
@@ -75,42 +94,17 @@ body{
      width: 100%;
      align-items: center;
      align-content: space-around;
+     color: crimson;
 }
- #contenue h1:before{
-    background-color: red;
-    height: 25vh;
-}
-#contenue section h1 div {
-  padding: 10px;
-  width: 50%;
-}
-#contenue section h1 div:nth-child(2){
-  color: white;
-  background-color: darkblue;
-  padding: 50vh;
-  padding-left: 0;
-  padding-right: 0;
-  height: 100vh;
-}
-#contenue section h1 div:nth-child(1){
-  color: darkblue;
-}
-#contenue section div{
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    mix-blend-mode:darken;
+#contenue section h2 span {
+  display: flex;
+  justify-content: center;
 }
 #contenue section h2 span {
 -webkit-animation: ltr 10s linear infinite 0s;
 animation: ltr 10s linear infinite 0s;
 opacity: 0;
 position: absolute;
-width: 50%;
-left:50vw;
 color: white;
 }
 #contenue section h2 span:nth-child(2){
