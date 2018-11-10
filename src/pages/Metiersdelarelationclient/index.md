@@ -7,7 +7,7 @@ type: Site Web
 >Projet : Metiers de la Relation Client<br>
 >Intitulé : Création  d'un site permettant de se renseigner sur les divers métiers relatif au relation client<br>
 >Auteur : Donaël Walter & des étudiants du DUT MMI<br>
->Outils : Brackets & nos cerveaux<br> 
+>Outils : Brackets & nos cerveaux<br>
 >Langages :  Html, CSS, JS
 ----------------------------------------------------------
 
@@ -22,4 +22,4 @@ type: Site Web
 
 ![acceuil mobile](https://mir-s3-cdn-cf.behance.net/project_modules/disp/90767a60889279.5a5cf6e307018.png) | ![menu mobile](https://mir-s3-cdn-cf.behance.net/project_modules/disp/85859960889279.5a5cf6e3072b9.png) | ![page de choix mobile](https://mir-s3-cdn-cf.behance.net/project_modules/disp/e0427160889279.5a5cf6e3074be.png)
 ------------|----------------|-------------
-the link to see the project is coming soon !
+the link to see the project is <a target="_blanck" href="https://ppp1.donaelwalter.com/">https://ppp1.donaelwalter.com/</a>

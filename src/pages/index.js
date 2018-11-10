@@ -37,6 +37,7 @@ class BlogIndex extends React.Component {
                <span className="élements">Graphiste</span>
                <span className="élements">Créateur de Contenue</span>
         </h2>
+        <Link to="#Acceuil" id="scrollIndex">▼</Link>
         </section>
         <main className="flow-posts" id="Acceuil">
         {posts.map(({ node }) => {

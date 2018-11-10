@@ -1,0 +1,26 @@
+footer{
+  height: 3vh;
+  width: 100%;
+  background-color: crimson;
+  bottom: 0;
+  margin-bottom: 0;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-size: 0.8em;
+}
+
+footer a{
+  box-shadow: none;
+  margin: 0.5vw;
+  font-family: sans-serif;
+}
+
+#lInactif {
+  color: grey;
+}
+#lInactif:hover{
+  color: white;
+}

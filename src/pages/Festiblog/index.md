@@ -11,6 +11,6 @@ type: Site Web
 ----------------------------------------------------------
 
 ## Le projet
-(ces images sont clickables)
-![lerp](./salles.png)
-![fest](./festivales.png)
+![lerp](./salles.jpg)
+<br></br>
+![fest](./festivales.jpg)

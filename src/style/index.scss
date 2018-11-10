@@ -54,11 +54,11 @@ body{
   width: 100vw;
   height: 100vh;
 
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%) contrast(2);
+  -moz-filter: grayscale(100%) contrast(2);
+  -o-filter: grayscale(100%) contrast(2);
+  -ms-filter: grayscale(100%) contrast(2);
+  filter: grayscale(100%) contrast(2);
 }
 #contenue>section{
     background-position: top;
@@ -168,6 +168,12 @@ animation-delay: 7.5s;
 }
 }
 
+#scrollIndex{
+  margin: auto;
+  margin-top: 15vh;
+  margin-bottom: 2vh;
+  box-shadow: 0 0px 0 0 currentColor;
+}
 /////FICHE
 .title1{
   margin: 0;
