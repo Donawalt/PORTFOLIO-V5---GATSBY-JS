@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
 import CoverImg from '../assets/cover.jpg'
@@ -7,6 +8,9 @@ import CoverImg from '../assets/cover.jpg'
 export default () => (
   <div id="about">
   <Layout>
+  <Helmet>
+    <title>A PROPOS || Donaël Walter</title>
+  </Helmet>
     <section id="c">
     <h1>A-PROPOS</h1>
     <center>

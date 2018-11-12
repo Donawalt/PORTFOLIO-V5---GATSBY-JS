@@ -20,7 +20,9 @@ class BlogPostTemplate extends React.Component {
     return (
         <Layout>
       <div className="BlogPost" id="BlogPost">
-        <Helmet title={post.frontmatter.title}/>
+        <Helmet>
+          <title>{post.frontmatter.title} || Donaël Walter</title>
+        </Helmet>
         <h1>{post.frontmatter.title}</h1>
         <Img sizes={post.frontmatter.featuredImage.childImageSharp.sizes} className="featuredImage" />
         <p

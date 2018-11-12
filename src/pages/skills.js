@@ -1,12 +1,15 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
-
+import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
 export default () => (
   <div>
   <Layout>
+  <Helmet>
+    <title>MES COMPETENCES || Donaël Walter</title>
+  </Helmet>
   <div id="c">
     <section>
       <h1>SITE- PROGRAMMATION</h1>

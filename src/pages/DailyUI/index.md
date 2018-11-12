@@ -1,5 +1,5 @@
 ---
-title: DAILYUI
+title: DAILY UI
 date: "2018-10-12T22:12:03.284Z"
 featuredImage: "./featured-image.jpg"
 type: Graphisme
