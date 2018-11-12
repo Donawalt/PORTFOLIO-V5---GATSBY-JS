@@ -10,7 +10,7 @@ type: Audiovisuel
 >Outils : Canon EOS , Première Pro<br>
 ----------------------------------------------------------
 
-## Notre production audiovisuel
+## Notre production audiovisuelle
 <center>
 <video style="width:70vw;" controls poster="./featured-image.jpg">
   <source src="pub.mp4"></source>
