@@ -35,7 +35,7 @@ class BlogIndex extends React.Component {
         <span className="élements">Développeur Créatif</span>
                <span className="élements">WebDesigner</span>
                <span className="élements">Graphiste</span>
-               <span className="élements">Créateur de Contenue</span>
+               <span className="élements">Créateur de Contenu</span>
         </h2>
         <Link to="#Acceuil" id="scrollIndex">▼</Link>
         </section>
