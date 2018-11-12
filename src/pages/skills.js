@@ -14,7 +14,7 @@ export default () => (
     <section>
       <h1>SITE- PROGRAMMATION</h1>
       <div className="hidden-desc" className="skills-section">
-      <p>Conception, design, animations , j'ai la capaciter de concevoir un site web avec ou sans CMS.<br/>
+      <p>Conception, design, animations , j'ai la capacité de concevoir un site web avec ou sans CMS.<br/>
       Ce que j'utilise : HTML , CSS , JS , PHP, Bootstrap (suivant la taille du projet)<br/>
       Ce que j'apprend : React, Jquery, GatsbyJs</p>
       </div>
@@ -33,7 +33,7 @@ export default () => (
       <div className="hidden-desc" className="skills-section">
         <p>Montage, photographie , prise son, motion design etc...<br/>
         Ce que j'utilise : La suite Adobe CC (Premier Pro, After Effect, Photoshop), Canon EOS.<br/>
-        Ce que j'apprend et fait : Clip publicitaire, Court-métrage, Faux télé-reportage et pleins d'autres choses !
+        Ce que j'apprend et fait : Clip publicitaire, Court-métrage, télé-reportage et pleins d'autres choses !
         </p>
       </div>
     </section>

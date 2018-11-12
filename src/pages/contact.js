@@ -19,7 +19,7 @@ export default () => (
           <h1>CONTACT</h1>
       </div>
       <div>
-        <p>Vous êtes intéressez pour qu'ont travaille ensemble ou vous chercher juste une information.<br></br>Remplissez le formulaire ci-dessous!</p>
+        <p>Vous êtes intéressé pour que l'on travaille ensemble ou si vous cherchez juste une information.<br></br>Remplissez le formulaire ci-dessous!</p>
       </div>
       <div>
       <form name="contact" action="https://formspree.io/donael.walter@hotmail.com" method="POST">
