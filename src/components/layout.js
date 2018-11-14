@@ -4,6 +4,10 @@ import Header from './header'
 import Helmet from 'react-helmet'
 import '../style/index.scss'
 export default ({ children }) => <div className="app-wrapper">
+<Helmet>
+<link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet"></link>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:700,800" rel="stylesheet"></link>
+</Helmet>
 <Header/>
     {children}
 <Footer/>
