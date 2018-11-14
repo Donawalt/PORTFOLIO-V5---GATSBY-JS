@@ -66,6 +66,7 @@ class BlogIndex extends React.Component {
               </div>
           )
         })}
+        <center><p>Design et Conception par Donaël Walter</p></center>
           </main>
       </div>
 </Layout>
