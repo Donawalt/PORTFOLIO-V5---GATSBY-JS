@@ -66,7 +66,7 @@ class BlogIndex extends React.Component {
               </div>
           )
         })}
-        <center><p>Design et Conception par Donaël Walter</p></center>
+        <center><p> En bas il ya plus rien! <br></br>Contactez moi ou visiter mes réseaux sociaux pour en voir plus!  </p></center>
           </main>
       </div>
 </Layout>
