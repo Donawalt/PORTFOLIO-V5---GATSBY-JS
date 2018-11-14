@@ -4,13 +4,19 @@
 }
 
 blockquote{
-  color: grey;
+  color: grey !important;
   border-left : solid 4px grey;
   margin-top: 20px;
 }
+blockquote p {
+  color: grey !important;
+}
 #aPost{
-  width: 75vw;
-  margin: auto;;
+  width: 75vw;{
+
+// COMBAK:
+  margin: au
+  to;;
   color: white;
 }
 #aPostsl{
