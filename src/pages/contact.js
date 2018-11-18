@@ -23,8 +23,8 @@ export default () => (
       </div>
       <div>
       <form
-        name="contact"
-        methodx="POST"
+        name="contact-form"
+        method="POST"
         data-netlify="true"
         data-netlify-honeypot="bot-field">
           <label for="name">Nom:</label>
