@@ -33,7 +33,7 @@ export default () => (
           <input type="email" name="_replyto" placeholder="example@mail.com"/>
           <label for="content">Votre message:</label>
           <textarea name="content" placeholder="lorem ipsum dolor si amet consectur ..."></textarea>
-          <input type="submit" value="Envoyer mon message!"/>
+          <button type="submit">Envoyer mon message!</button>
       </form>
       </div>
     </div>
