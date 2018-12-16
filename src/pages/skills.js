@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
+import '../style/skills.scss'
 
 export default () => (
   <div>
@@ -11,7 +12,7 @@ export default () => (
     <title>MES COMPETENCES || Donaël Walter</title>
   </Helmet>
   <div id="c">
-    <section>
+    <section id="comp-progra">
       <h1>SITE- PROGRAMMATION</h1>
       <div className="hidden-desc" className="skills-section">
       <p>Conception, design, animations , j'ai la capacité de concevoir un site web avec ou sans CMS.<br/>
@@ -19,7 +20,7 @@ export default () => (
       Ce que j'apprend : React, Jquery, GatsbyJs</p>
       </div>
     </section>
-    <section>
+    <section id="comp-graph">
       <h1>MARQUE - GRAPHISME</h1>
       <div className="hidden-desc" className="skills-section">
       <p>Creation de Logo, document PRINT et Numérique, Charte graphique etc... <br/>
@@ -28,7 +29,7 @@ export default () => (
       </p>
       </div>
     </section>
-    <section>
+    <section id="comp-photo">
       <h1>PHOTOGRAPHIE - AUDIOVISUELLE</h1>
       <div className="hidden-desc" className="skills-section">
         <p>Montage, photographie , prise son, motion design etc...<br/>
