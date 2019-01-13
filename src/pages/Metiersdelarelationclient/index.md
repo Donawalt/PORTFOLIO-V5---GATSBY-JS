@@ -2,7 +2,7 @@
 title: Metiers de la Relation Client
 date: "2018-01-15T22:12:03.284Z"
 featuredImage: "./featured-image.jpg"
-type: Site Web
+type: Website
 ---
 >Projet : Metiers de la Relation Client<br>
 >Intitulé : Creation of a site to learn about the various trades related to the client relationship<br>

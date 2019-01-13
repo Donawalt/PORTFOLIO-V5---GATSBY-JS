@@ -2,10 +2,10 @@
 title: Nightmare
 date: "2018-12-22T00:17:03.284Z"
 featuredImage: "./featured-image.jpg"
-type: Vidéo
+type: Video
 ---
 >Project : Nightmare<br>
->Title : Court métrage<br>
+>Title : Short Film<br>
 >Authors : Axel Dos Santos, Fabien Bras-Martin, Brice Girard, Donaël Walter<br>
 >Tools : Premier Pro CC, After effect CC<br>
 ----------------------------------------------------------
