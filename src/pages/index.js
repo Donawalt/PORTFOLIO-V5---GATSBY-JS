@@ -28,7 +28,6 @@ class BlogIndex extends React.Component {
         <div className="contenue" id="contenue">
         <Helmet>
           <title>{siteTitle}</title>
-          <meta data="description" content="Je suis étudiant en DUT MMI , futur Designer. Visitez mon site pour en connaître plus sur moi !"/>
         </Helmet>
         <section>
         <div>
