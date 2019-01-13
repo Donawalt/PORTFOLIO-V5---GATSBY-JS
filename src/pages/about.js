@@ -12,7 +12,7 @@ export default () => (
     <title>About || Donaël Walter</title>
   </Helmet>
     <section id="c">
-    <h1>A-PROPOS</h1>
+    <h1>ABOUT</h1>
     <center>
       <img src="https://media.licdn.com/dms/image/C4D03AQEJK4H_xAphWQ/profile-displayphoto-shrink_200_200/0?e=1547683200&v=beta&t=zpwwRpEL_Ruilifd0salVVb400xF0wN2AYfqDAZFEe8"></img>
     </center>

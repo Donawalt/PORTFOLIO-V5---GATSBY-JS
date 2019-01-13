@@ -2,12 +2,12 @@
 title: DAILY UI
 date: "2018-10-12T22:12:03.284Z"
 featuredImage: "./featured-image.jpg"
-type: Graphisme
+type: Graphic design
 ---
->Projet : DAILY UI CHALLENGE<br>
->Intitulé : Conception de webdesign ou design d'application en suivant les critère d'un challenge journaliers<br>
->Auteur : Donaël Walter <br>
->Outils :IllustrorCC, Photoshop CC, GravitDesign<br>
+>Project : DAILY UI CHALLENGE<br>
+>Title : Design of webdesign or application design according to the criteria of a daily challenge<br>
+>Author : Donaël Walter <br>
+>Tools :IllustrorCC, Photoshop CC, GravitDesign<br>
 ----------------------------------------------------------
 ## Daily UI 01 "Sign Up"
 ![dailyUI001](./images/UI001.jpg)

@@ -1,16 +1,16 @@
 ---
-title: Publicité Powerade
+title: Powerade advertising
 date: "2018-06-20T22:12:03.284Z"
 featuredImage: "./featured-image.jpg"
-type: Audiovisuel
+type: Audiovisual
 ---
->Projet : Publicité Powerade<br>
->Intitulé : Création d'un spot publicitaire pour Powerade<br>
->Auteur : Donaël Walter & des étudiants du DUT MMI<br>
->Outils : Canon EOS , Première Pro<br>
+>Project : Powerade advertising<br>
+>Title : Creation of an advertising spot for Powerade<br>
+>Author: Donaël Walter & DUT MMI Students<br>
+>Tools : Canon EOS , Premiere Pro<br>
 ----------------------------------------------------------
 
-## Notre production audiovisuelle
+##Our audiovisual production
 <center>
 <video style="width:70vw;" controls poster="./featured-image.jpg">
   <source src="pub.mp4"></source>

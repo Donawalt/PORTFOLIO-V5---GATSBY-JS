@@ -5,9 +5,9 @@ featuredImage: "./featured-image.jpg"
 type: Site Web
 ---
 >Projet : Metiers de la Relation Client<br>
->Intitulé : Création  d'un site permettant de se renseigner sur les divers métiers relatif au relation client<br>
->Auteur : Donaël Walter & des étudiants du DUT MMI<br>
->Outils : Brackets & nos cerveaux<br>
+>Intitulé : Creation of a site to learn about the various trades related to the client relationship<br>
+>Auteur : Donaël Walter & MMI's students<br>
+>Outils : Brackets & our brains<br>
 >Langages :  Html, CSS, JS
 ----------------------------------------------------------
 
