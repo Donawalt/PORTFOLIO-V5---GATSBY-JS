@@ -23,10 +23,6 @@ html,body,span,a,div,section,h2,h1,h3,h4,p{
   text-transform: uppercase;
   font-size: 10vh;
 }
-#c {
-  width: 75vw;
-  margin: auto;
-}
 //ACCEUIL
 #Acceuil {
     background-color:black;
@@ -224,10 +220,12 @@ animation-delay: 7.5s;
 }
 //////////////////////////////////////////////////////
 #c section{
-  height: 90vh;
+  margin-top: 25vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 #c center img {
   border-radius: 202px;
