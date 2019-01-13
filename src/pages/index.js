@@ -34,10 +34,10 @@ class BlogIndex extends React.Component {
             <h1>Donaël WALTER</h1>
         </div>
         <h2>
-        <span className="élements">Développeur Créatif</span>
+        <span className="élements">Creative developer</span>
                <span className="élements">WebDesigner</span>
-               <span className="élements">Graphiste</span>
-               <span className="élements">Créateur de Contenu</span>
+               <span className="élements">Graphic Designer</span>
+               <span className="élements">Content creator</span>
         </h2>
         <Link to="#Acceuil" id="scrollIndex">▼</Link>
         </section>
@@ -65,7 +65,7 @@ class BlogIndex extends React.Component {
               </div>
           )
         })}
-        <center><p> En bas il ya plus rien! <br></br>Contactez moi ou visiter mes réseaux sociaux pour en voir plus!  </p></center>
+        <center><p> Downstairs there’s nothing! <br></br>Contact me or visit my social networks to see more!</p></center>
           </main>
       </div>
 </Layout>

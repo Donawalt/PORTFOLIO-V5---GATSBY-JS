@@ -20,15 +20,15 @@ export default () => (
       </div>
       <div>
       <form name="contact" action="https://formspree.io/donael.walter@hotmail.com" method="POST">
-        <p>Vous êtes intéressé pour que l'on travaille ensemble ou si vous cherchez juste une information.<br></br>Remplissez le formulaire ci-dessous!</p>
+        <p>You’re interested in working together or if you’re just looking for information. <br></br>Complete the form below!</p>
         <hr/>
-          <label for="name">Nom:</label>
+          <label for="name">Name:</label>
           <input type="text" name="name" placeholder="John Doe" required/>
           <label for="email">Email:</label>
           <input type="email" name="_replyto" placeholder="example@mail.com" required/>
-          <label for="content">Votre message:</label>
+          <label for="content">Your message:</label>
           <textarea name="content" placeholder="lorem ipsum dolor si amet consectur ..."></textarea>
-          <button type="submit">Envoyer</button>
+          <button type="submit">Send</button>
       </form>
       </div>
     </div>

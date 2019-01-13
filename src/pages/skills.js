@@ -9,32 +9,32 @@ export default () => (
   <div>
   <Layout>
   <Helmet>
-    <title>MES COMPETENCES || Donaël Walter</title>
+    <title>MY SKILLS || Donaël Walter</title>
   </Helmet>
   <div id="c">
     <section id="comp-progra">
-      <h1>SITE- PROGRAMMATION</h1>
+      <h1>SITE- PROGRAMMING</h1>
       <div className="hidden-desc" className="skills-section">
-      <p>Conception, design, animations , j'ai la capacité de concevoir un site web avec ou sans CMS.<br/>
-      Ce que j'utilise : HTML , CSS , JS , PHP, Bootstrap (suivant la taille du projet)<br/>
-      Ce que j'apprend : React, Jquery, GatsbyJs</p>
+      <p>Conception, design, animations, I have the ability to design a website with or without CMS.<br/>
+      What I use: HTML , CSS , JS , PHP, Bootstrap (depending on project size)<br/>
+      What I Learn: React, Jquery, GatsbyJs</p>
       </div>
     </section>
     <section id="comp-graph">
-      <h1>MARQUE - GRAPHISME</h1>
+      <h1>BRANDING - GRAPHIC DESIGN</h1>
       <div className="hidden-desc" className="skills-section">
-      <p>Creation de Logo, document PRINT et Numérique, Charte graphique etc... <br/>
-      Ce que j'utilise : La suite Adobe CC (Photoshop, Illustrator, Indesign), Des feuilles , Des crayons . <br/>
-      Ce que j'apprend et fait : Le webdesign, La typographie etc ...
+      <p>Creation of Logo, print document and Digital, Graphic Charter etc...<br/>
+      What I use: Adobe CC Suite (Photoshop, Illustrator, Indesign), Sheets , Pencils . <br/>
+      What I learn and do: Webdesign, Typography etc ...
       </p>
       </div>
     </section>
     <section id="comp-photo">
-      <h1>PHOTOGRAPHIE - AUDIOVISUELLE</h1>
+      <h1>PHOTOGRAPHY - MEDIA(AUDIOVISUAL)</h1>
       <div className="hidden-desc" className="skills-section">
-        <p>Montage, photographie , prise son, motion design etc...<br/>
-        Ce que j'utilise : La suite Adobe CC (Premier Pro, After Effect, Photoshop), Canon EOS.<br/>
-        Ce que j'apprend et fait : Clip publicitaire, Court-métrage, télé-reportage et pleins d'autres choses !
+        <p>Editing, photography, sound taking, motion design etc...<br/>
+        What I use: The Adobe CC Suite (First Pro, After Effect, Photoshop), Canon EOS.<br/>
+        What I learn and do: Clip commercial, Short-film, tele-reportage et pleins d'autres choses!
         </p>
       </div>
     </section>

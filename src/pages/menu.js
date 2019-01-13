@@ -19,13 +19,13 @@ export default () => (
 </header>
 <ul>
 <li>
-<Link to="/">Acceuil</Link>
+<Link to="/">Home</Link>
 </li>
 <li>
-<Link to="/skills">Compétences</Link>
+<Link to="/skills">Skills</Link>
 </li>
 <li>
-<Link to="/a-propos">A propos</Link>
+<Link to="/about">About</Link>
 </li>
 <li>
 <Link to="/contact">Contact</Link>
