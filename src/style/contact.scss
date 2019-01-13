@@ -3,9 +3,45 @@ div form {
   flex-direction: column;
   width: 80%;
   margin: auto;
+  hr {
+    margin: 0;
+    background-color: white;
+    width: 20%;
+    margin: auto;
+  }
+  input, textarea {
+   margin: 4px;
+   color: white;
+   border: none;
+   border-bottom: white 2px solid;
+   background-color: black;
+ }
+  textarea{
+    margin-bottom: 40px;
+  }
+ button[type="submit"]{
+  margin-top: 40px;
+  padding: 5px;
+  background: none;
+  margin: auto;
+  width: auto;
+  border:none;
+  color: green;
+  border-bottom: 4px crimson solid;
+ }
+ input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border-bottom: 2px solid green;
+  -webkit-text-fill-color: green;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
 }
-div form input, div form textarea {
-  margin: 4px;
 }
 label {
   margin-top: 10px;
