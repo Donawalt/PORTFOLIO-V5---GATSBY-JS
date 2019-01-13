@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 const NotFoundPage = () => (
-  <div id="c">
+  <div id="b">
     <Layout>
     <section>
     <h1>Error:<br/>'404'</h1>
