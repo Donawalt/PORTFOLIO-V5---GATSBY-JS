@@ -8,6 +8,8 @@ export default ({ children }) => <div className="app-wrapper">
 <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet"></link>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:700,800" rel="stylesheet"></link>
 <meta name="description" content="I am a student in MMI DUT , future Designer. Visit my site to learn more about me!"></meta>
+<meta name="language" content="EN"></meta>
+<link rel="alternate" href="https://www.donaelwalter.com/" hreflang="fr-fr" />
 </Helmet>
 <Header/>
     {children}
