@@ -15,9 +15,9 @@ class Footer extends React.Component {
     return (
       <footer>
         <div>
-        <a href="https://donaelwalter.com/">FR</a>
+        <a href="https://donaelwalter.com/" id="lInactif">FR</a>
         <span>/</span>
-        <a href="https://en.donaelwalter.com/" id="lInactif">EN</a>
+        <a href="https://en.donaelwalter.com/">EN</a>
         </div>
         <div>
           <a target="_blanck" href="https://www.behance.net/donawalt/">BEHANCE</a>
