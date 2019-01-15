@@ -5,8 +5,9 @@ footer{
   bottom: 0;
   margin-bottom: 0;
   position: fixed;
-  display: flex;
+  display: flex!important;
   justify-content: space-between;
+  align-items: center;
   padding-left: 5vw;
   padding-right: 5vw;
   font-size: 0.8em;

@@ -19,7 +19,7 @@ export default () => (
 </header>
 <ul>
 <li>
-<Link to="/">Acceuil</Link>
+<Link to="/">Accueil</Link>
 </li>
 <li>
 <Link to="/skills">Compétences</Link>
