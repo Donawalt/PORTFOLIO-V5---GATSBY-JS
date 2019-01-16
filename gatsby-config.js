@@ -44,6 +44,13 @@ module.exports = {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
+    {
+    resolve: `gatsby-plugin-hotjar`,
+    options: {
+      id: 1161342,
+      sv: 6
+    },
+  },
     `gatsby-plugin-feed`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
