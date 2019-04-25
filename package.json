@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-blog",
-  "description": "Starter Gatsby Blog",
+  "name": "portfolio-donael",
+  "description": "GatsbyJS",
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "bugs": {
@@ -48,9 +48,7 @@
     "prettier": "^1.15.3"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": [],
   "license": "MIT",
   "main": "n/a",
   "repository": {

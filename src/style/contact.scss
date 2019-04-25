@@ -3,6 +3,11 @@ div form {
   flex-direction: column;
   width: 80%;
   margin: auto;
+  >p{
+    @media screen and (max-width:950px) {
+      display:none;
+    }
+  }
   hr {
     margin: 0;
     background-color: white;

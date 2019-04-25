@@ -1,34 +1,64 @@
-//DWALTER CIRCLE
-#header{
+#header {
   position: fixed;
   z-index: 9999999999;
   display: flex;
   align-content: space-between;
   justify-content: space-between;
-  width: 100%;
+  width: 100vw;
   mix-blend-mode: exclusion;
   top:0;
-  padding: 2vh;
+  a{
+    color: transparent;
+  }
+  a.link-desktop{
+    height: 100px;
+    width: 100px;
+    z-index: 999999999;
+    transform-origin: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    animation: 8s infinite rotate-text linear;
+    transform-origin: left;
+    margin-left: 100px;
+    margin-top: 10px;
+    @media screen and (max-width: 950px) {
+      display: none;
+    }
+  }
+  a.burger-menu{
+  display:flex;
+    p{
+    transform: rotate(90deg);
+    margin-right: 5px;
+    color: white;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    display:flex;
+    text-align: center;
+    align-items: center;
+    background-clip: text;
+    justify-content: center;
+    z-index: 99999999999999;
+      @media screen and (max-width:950px) {
+        marging-right: 5px;
+      }
+    }
+  }
+  a.link-smartphone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    @media screen and (min-width:950px) {
+      display:none;
+    }
+  }
 }
 
-#header a{
-  color: transparent;
-}
 
-#header a:nth-child(1){
-  height: 100px;
-  width: 100px;
-  z-index: 999999999;
-  transform-origin: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  animation: 8s infinite rotate-text linear;
-  transform-origin: left;
-  margin-left: 100px;
-  margin-top: 10px;
-}
 @for $i from 3 through 9 {
   #header a:nth-child(1) .char#{$i} {
     font: 26px MonoSpace;
@@ -58,21 +88,4 @@
   100%{
     transform: rotate(360deg);
   }
-}
-#header a:nth-child(2){
-  display: flex;
-}
-#header a:nth-child(2)>p{
-  transform: rotate(90deg);
-  margin-right: 50px;
-  color: white;
-  height: 50px;
-  width: 50px;
-  background-color: black;
-  display:flex;
-  text-align: center;
-  align-items: center;
-  background-clip: text;
-  justify-content: center;
-  z-index: 99999999999999;
 }

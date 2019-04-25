@@ -4,6 +4,9 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  @media screen and (max-width:950px){
+    background-size: cover;
+  }
 }
 
 #comp-graph {
@@ -12,6 +15,9 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  @media screen and (max-width:950px){
+    background-size: cover;
+  }
 }
 
 #comp-photo {
@@ -20,4 +26,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  @media screen and (max-width:950px){
+    background-size: cover;
+  }
 }

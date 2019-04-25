@@ -4,13 +4,12 @@ import Link from 'gatsby-link'
 import 'typeface-montserrat'
 import 'typeface-merriweather'
 import '../style/header.scss'
-import LogoMin from '../assets/SVG/logo-min-01.svg'
 
 class Header extends React.Component {
   render() {
     return (
-        <header className="header" id="header">
-        <Link to="/">
+      <header className="header" id="header">
+        <Link to="/" className="link-desktop">
           <span className="char3">D</span>
           <span className="char4">W</span>
           <span className="char5">A</span>
@@ -19,10 +18,13 @@ class Header extends React.Component {
           <span className="char8">E</span>
           <span className="char9">R</span>
         </Link>
-        <Link to="/menu">
+        <Link to="/" className="link-smartphone">
+          <span>D.WALTER</span>
+        </Link>
+        <Link to="/menu" className="burger-menu">
           <p>|||</p>
         </Link>
-        </header>
+      </header>
     )
   }
 }

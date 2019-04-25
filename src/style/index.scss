@@ -21,7 +21,10 @@ html,body,span,a,div,section,h2,h1,h3,h4,p{
   font-family: 'Roboto', sans-serif;
   color: white;
   text-transform: uppercase;
-  font-size: 10vh;
+  font-size: 10vw;
+  @media screen and (min-width:900px){
+    font-size: 10vh;
+  }
 }
 #c {
   width: 75vw;
@@ -97,6 +100,9 @@ body{
      align-items: center;
      align-content: space-around;
      color: crimson;
+     @media screen and (max-width:950px){
+      font-size: 15vw;
+     }
 }
 #contenue section h2 {
   display: flex;
@@ -211,8 +217,11 @@ animation-delay: 7.5s;
   font-size: 20vh;
   color:white;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: uppercase; 
   transition-duration: 800ms;
+   @media screen and (max-width:950px) {
+     font-size: 10vw;
+    }
 }
 
 .Linkdescription:hover{
@@ -236,6 +245,12 @@ animation-delay: 7.5s;
   display: flex;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width:950px){
+    flex-direction: column;
+    h1 {
+      display: none;
+    }
+  }
 }
 #c center img {
   border-radius: 202px;
