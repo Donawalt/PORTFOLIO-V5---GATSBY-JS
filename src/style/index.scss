@@ -15,15 +15,31 @@ html,body,span,a,div,section,h2,h1,h3,h4,p{
   display: flex;
   flex-direction:column;
   justify-content: center;
- height: 100vh;
-}
-#Splash-Menu ul li a {
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  text-transform: uppercase;
-  font-size: 10vw;
-  @media screen and (min-width:900px){
-    font-size: 10vh;
+  height: 100vh;
+  border-bottom: none;
+  li{
+    border-bottom: none;
+    text-decoration: none;
+    color: transparent;
+    a {
+      font-family: 'Roboto', sans-serif;
+      color: white;
+      text-transform: uppercase;
+      font-size: 10vw;
+      text-decoration: none;
+      border-bottom: crimson 0.5px solid;
+      transition: 200ms;
+      &:link{
+        text-decoration: none;
+      }
+      &:hover{
+        color:crimson;
+        transition: 200ms;
+      }
+      @media screen and (min-width:900px){
+        font-size: 10vh;
+      }
+    }
   }
 }
 #c {
