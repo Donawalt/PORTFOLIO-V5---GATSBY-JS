@@ -7,7 +7,7 @@ type: site web
 
 > Projet : Henry Fessy<br>
 > Développement Front : Donaël Walter & VINIUM LUXURY WEBDESIGN<br>
-> Création graphique : <a target="_blanck" href="https://www.vinium.com/">VINIUM LUXURY WEBDESIGN</a>
+> Création graphique : <a target="_blanck" href="https://www.vinium.com/">VINIUM LUXURY WEBDESIGN</a><br>
 > Outils : Gulp, Php Storm, Avocode, Scss<br>
 
 ---
