@@ -31,8 +31,14 @@ div form {
   margin: auto;
   width: auto;
   border:none;
-  color: green;
+  color: gray;
   border-bottom: 4px crimson solid;
+  transition: 200ms;
+  cursor: pointer;
+  &:hover{
+    color:white;
+    transition: 200ms;
+  }
  }
  input:-webkit-autofill,
 input:-webkit-autofill:hover,
