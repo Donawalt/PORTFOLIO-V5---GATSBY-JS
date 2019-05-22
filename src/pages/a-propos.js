@@ -22,8 +22,10 @@ export default () => (
           J'étudie le développement web et la communication visuelle à
           l'Université de Dijon.
           <br />
+          <br />
           Je souhaite devenir un développeur web créatif et un webdesigner
           capable d'effectuer diverses tâches et suivre un projet à 360°.
+          <br />
           <br />
           Je suis actuellement en recherche d'un contrat de professionnalisation
           dans le domaine du Webdesign et/ou du Développement Web, afin de
@@ -35,6 +37,7 @@ export default () => (
             @HETIC
           </a>{' '}
           en bachelor web.
+          <br />
           <br />
           Toujours ouvert à de nouvelles opportunités, je suis déja disponible
           pour des{' '}
