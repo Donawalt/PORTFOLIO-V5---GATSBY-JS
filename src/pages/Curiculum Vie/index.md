@@ -1,13 +1,16 @@
 ---
-title: Curriculum Vitae
-date: "2018-12-22T00:17:03.284Z"
-featuredImage: "./featured-image.jpg"
+title: CV en motion design
+date: '2018-12-22T00:17:03.284Z'
+featuredImage: './featured-image.jpg'
 type: Vidéo
 ---
->Projet : CV en motion design<br>
->Auteur : Donaël Walter<br>
->Outils : After effect CC<br>
-----------------------------------------------------------
+
+> Projet : CV en motion design<br>
+> Auteur : Donaël Walter<br>
+> Outils : After effect CC<br>
+
+---
+
 ## Mon cv
 
 <center>
