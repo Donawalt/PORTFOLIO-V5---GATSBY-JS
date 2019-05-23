@@ -230,6 +230,12 @@ animation-delay: 7.5s;
   align-items: center;
   mix-blend-mode:lighten;
   transition-duration: 400ms;
+  .type {
+    background: black;
+    height: 100%;
+    width:100%;
+    color: red;
+  }
 }
 .title1{
   font-family: 'Roboto', sans-serif;

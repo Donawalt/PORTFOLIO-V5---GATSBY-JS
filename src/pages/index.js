@@ -34,9 +34,9 @@ class BlogIndex extends React.Component {
               <span className="élements">Graphiste</span>
               <span className="élements">Créateur de Contenu</span>
             </h2>
-            <Link to="#Acceuil" id="scrollIndex">
+            <a href="#Acceuil" id="scrollIndex">
               ▼
-            </Link>
+            </a>
           </section>
           <main className="flow-posts" id="Acceuil">
             {posts.map(({ node }) => {
@@ -55,9 +55,6 @@ class BlogIndex extends React.Component {
                     >
                       <div className="description">
                         <h3 className="title1">{title}</h3>
-                        <center>
-                          <small>{node.frontmatter.type}</small>
-                        </center>
                       </div>
                     </Link>
                     <div className="fimage">
@@ -68,6 +65,9 @@ class BlogIndex extends React.Component {
                           }
                           className="featuredImage"
                         />
+                        <center className="type">
+                          <small>{node.frontmatter.type}</small>{' '}
+                        </center>
                         <center>
                           <small>{node.frontmatter.date}</small>
                         </center>
