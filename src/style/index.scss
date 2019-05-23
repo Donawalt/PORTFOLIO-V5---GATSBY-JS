@@ -228,7 +228,6 @@ animation-delay: 7.5s;
   text-align: center;
   justify-content: center;
   align-items: center;
-  mix-blend-mode:lighten;
   transition-duration: 400ms;
   .type {
     background: black;
@@ -243,7 +242,7 @@ animation-delay: 7.5s;
   color:white;
   font-weight: bold;
   text-transform: uppercase; 
-  transition-duration: 800ms;
+  transition-duration: 2000ms;
    @media screen and (max-width:950px) {
      font-size: 10vw;
     }
