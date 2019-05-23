@@ -80,8 +80,8 @@ class BlogIndex extends React.Component {
             <center>
               <p>
                 {' '}
-                En bas il ya plus rien! <br />Contactez moi ou visiter mes
-                réseaux sociaux pour en voir plus!{' '}
+                En bas il ya plus rien! <br />
+                Contactez moi ou visiter mes réseaux sociaux pour en voir plus!{' '}
               </p>
             </center>
           </main>
@@ -110,6 +110,7 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "DD MMMM, YYYY")
             title
+            type
             featuredImage {
               childImageSharp {
                 sizes(maxWidth: 2000) {
