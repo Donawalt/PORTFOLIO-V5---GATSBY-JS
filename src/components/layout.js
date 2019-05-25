@@ -6,14 +6,7 @@ import '../style/index.scss'
 export default ({ children }) => (
   <div className="app-wrapper">
     <Helmet>
-      <link
-        href="https://fonts.googleapis.com/css?family=Roboto:700"
-        rel="stylesheet"
-      />
-      <link
-        href="https://fonts.googleapis.com/css?family=Montserrat:700,800"
-        rel="stylesheet"
-      />
+      <meta name="viewport" content="width=devicewidth" />
       <meta
         name="description"
         content="A la recherche d'un contrat de professionnalisation en Webdesign ou Développement Web. DUT MMI DIJON prochainement HETIC. Développeur Front-End Freelance."

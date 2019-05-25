@@ -1,8 +1,5 @@
 import React from 'react'
 
-import 'typeface-montserrat'
-import 'typeface-merriweather'
-
 import '../style/footer.scss'
 
 class Footer extends React.Component {

@@ -1,8 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 // Import typefaces
-import 'typeface-montserrat'
-import 'typeface-merriweather'
 import '../style/header.scss'
 
 class Header extends React.Component {
